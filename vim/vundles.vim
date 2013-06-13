@@ -19,7 +19,6 @@ Bundle "gmarik/vundle"
 " All your bundles here
 
 " Ruby, Rails, Rake...
-Bundle "astashov/vim-ruby-debugger"
 Bundle "ecomba/vim-ruby-refactoring"
 Bundle "skwp/vim-ruby-conque"
 Bundle "tpope/vim-rails.git"
@@ -96,23 +95,14 @@ Bundle "tpope/vim-repeat.git"
 Bundle "tpope/vim-surround.git"
 Bundle "tpope/vim-unimpaired"
 Bundle "vim-scripts/AnsiEsc.vim.git"
-Bundle "vim-scripts/AutoTag.git"
 Bundle "vim-scripts/lastpos.vim"
 Bundle "vim-scripts/sudo.vim"
 Bundle "xsunsmile/showmarks.git"
 
 " Text objects
 Bundle "austintaylor/vim-indentobject"
-Bundle "bootleq/vim-textobj-rubysymbol"
 Bundle "coderifous/textobj-word-column.vim"
-Bundle "kana/vim-textobj-datetime"
-Bundle "kana/vim-textobj-entire"
-Bundle "kana/vim-textobj-function"
-Bundle "kana/vim-textobj-user"
-Bundle "lucapette/vim-textobj-underscore"
 Bundle "nathanaelkane/vim-indent-guides"
-Bundle "nelstrom/vim-textobj-rubyblock"
-Bundle "thinca/vim-textobj-function-javascript"
 Bundle "vim-scripts/argtextobj.vim"
 
 " Cosmetics, color scheme, Powerline...
