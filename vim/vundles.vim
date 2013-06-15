@@ -19,14 +19,16 @@ Bundle "gmarik/vundle"
 " All your bundles here
 
 " Ruby, Rails, Rake...
-Bundle "tpope/vim-rails.git"
+Bundle "tpope/vim-rvm.git"
 Bundle "vim-ruby/vim-ruby.git"
+Bundle "tpope/vim-rails.git"
 
 " Other languages
 Bundle "briancollins/vim-jst"
 Bundle "pangloss/vim-javascript"
 
 " Html, Xml, Css, Markdown...
+Bundle "vim-scripts/argtextobj.vim"
 Bundle "digitaltoad/vim-jade.git"
 Bundle "groenewege/vim-less.git"
 Bundle "jtratner/vim-flavored-markdown.git"
