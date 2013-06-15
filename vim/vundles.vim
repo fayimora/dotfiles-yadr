@@ -19,38 +19,26 @@ Bundle "gmarik/vundle"
 " All your bundles here
 
 " Ruby, Rails, Rake...
-Bundle "ecomba/vim-ruby-refactoring"
-Bundle "skwp/vim-ruby-conque"
 Bundle "tpope/vim-rails.git"
-Bundle "tpope/vim-rake.git"
-Bundle "tpope/vim-rvm.git"
 Bundle "vim-ruby/vim-ruby.git"
-Bundle "vim-scripts/Specky.git"
 
 " Other languages
 Bundle "briancollins/vim-jst"
 Bundle "pangloss/vim-javascript"
 
 " Html, Xml, Css, Markdown...
-Bundle "aaronjensen/vim-sass-status.git"
-Bundle "claco/jasmine.vim"
 Bundle "digitaltoad/vim-jade.git"
 Bundle "groenewege/vim-less.git"
-Bundle "itspriddle/vim-jquery.git"
 Bundle "jtratner/vim-flavored-markdown.git"
 Bundle "kchmck/vim-coffee-script"
 Bundle "kogakure/vim-sparkup.git"
 Bundle "nelstrom/vim-markdown-preview"
-Bundle "skwp/vim-html-escape"
-Bundle "slim-template/vim-slim.git"
 Bundle "timcharper/textile.vim.git"
 Bundle "tpope/vim-haml"
-Bundle "wavded/vim-stylus"
 
 " Git related...
 Bundle "gregsexton/gitv"
 Bundle "mattn/gist-vim"
-Bundle "skwp/vim-git-grep-rails-partial"
 Bundle "tjennings/git-grep-vim"
 Bundle "tpope/vim-fugitive"
 Bundle "tpope/vim-git"
@@ -100,19 +88,13 @@ Bundle "vim-scripts/sudo.vim"
 Bundle "xsunsmile/showmarks.git"
 
 " Text objects
-Bundle "austintaylor/vim-indentobject"
 Bundle "coderifous/textobj-word-column.vim"
 Bundle "nathanaelkane/vim-indent-guides"
-Bundle "vim-scripts/argtextobj.vim"
 
 " Cosmetics, color scheme, Powerline...
 Bundle "chrisbra/color_highlight.git"
 Bundle "skwp/vim-colors-solarized"
 Bundle "skwp/vim-powerline.git"
-Bundle "itspriddle/vim-jquery.git"
-Bundle "slim-template/vim-slim.git"
-Bundle "bogado/file-line.git"
-Bundle "tpope/vim-rvm.git"
 Bundle "nelstrom/vim-visual-star-search"
 
 " Customization
