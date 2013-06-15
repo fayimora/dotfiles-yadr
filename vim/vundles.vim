@@ -28,14 +28,11 @@ Bundle "briancollins/vim-jst"
 Bundle "pangloss/vim-javascript"
 
 " Html, Xml, Css, Markdown...
-Bundle "vim-scripts/argtextobj.vim"
 Bundle "digitaltoad/vim-jade.git"
 Bundle "groenewege/vim-less.git"
 Bundle "jtratner/vim-flavored-markdown.git"
 Bundle "kchmck/vim-coffee-script"
 Bundle "kogakure/vim-sparkup.git"
-Bundle "nelstrom/vim-markdown-preview"
-Bundle "timcharper/textile.vim.git"
 Bundle "tpope/vim-haml"
 
 " Git related...
@@ -46,7 +43,6 @@ Bundle "tpope/vim-fugitive"
 Bundle "tpope/vim-git"
 
 " General text editing improvements...
-Bundle "AndrewRadev/splitjoin.vim"
 Bundle "Raimondi/delimitMate"
 Bundle "Shougo/neocomplcache.git"
 Bundle "briandoll/change-inside-surroundings.vim.git"
@@ -54,11 +50,8 @@ Bundle "garbas/vim-snipmate.git"
 Bundle "godlygeek/tabular"
 Bundle "honza/vim-snippets"
 Bundle "nelstrom/vim-visual-star-search"
-Bundle "skwp/vim-easymotion"
 Bundle "tomtom/tcomment_vim.git"
-Bundle "tpope/vim-bundler"
 Bundle "vim-scripts/IndexedSearch"
-Bundle "vim-scripts/camelcasemotion.git"
 Bundle "vim-scripts/matchit.zip.git"
 Bundle "terryma/vim-multiple-cursors"
 
@@ -79,7 +72,6 @@ Bundle "skwp/greplace.vim"
 Bundle "skwp/vim-conque"
 Bundle "tomtom/tlib_vim.git"
 Bundle "tpope/vim-abolish"
-Bundle "tpope/vim-endwise.git"
 Bundle "tpope/vim-ragtag"
 Bundle "tpope/vim-repeat.git"
 Bundle "tpope/vim-surround.git"
@@ -97,7 +89,6 @@ Bundle "nathanaelkane/vim-indent-guides"
 Bundle "chrisbra/color_highlight.git"
 Bundle "skwp/vim-colors-solarized"
 Bundle "skwp/vim-powerline.git"
-Bundle "nelstrom/vim-visual-star-search"
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
