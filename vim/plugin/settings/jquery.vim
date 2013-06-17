@@ -1,1 +1,1 @@
-autocmd BufRead,BufNewFile *.js set ft=javascript syntax=jquery
+" autocmd BufRead,BufNewFile *.js set ft=javascript syntax=jquery
