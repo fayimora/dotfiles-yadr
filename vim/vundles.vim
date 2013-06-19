@@ -22,6 +22,7 @@ Bundle "gmarik/vundle"
 Bundle "tpope/vim-rvm.git"
 Bundle "vim-ruby/vim-ruby.git"
 Bundle "tpope/vim-rails.git"
+Bundle "vim-scripts/Specky.git"
 
 " Other languages
 Bundle "briancollins/vim-jst"
