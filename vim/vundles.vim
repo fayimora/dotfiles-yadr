@@ -80,6 +80,9 @@ Bundle "vim-scripts/lastpos.vim"
 Bundle "vim-scripts/sudo.vim"
 Bundle "xsunsmile/showmarks.git"
 Bundle "terryma/vim-multiple-cursors"
+"vim-misc is required for vim-session
+Bundle "xolox/vim-misc"
+Bundle "xolox/vim-session"
 
 " Text objects
 Bundle "coderifous/textobj-word-column.vim"
