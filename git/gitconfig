@@ -103,7 +103,7 @@
   default = tracking
 [core]
   autocrlf = false
-  editor = vim
+	editor = mvim -v
   excludesfile = ~/.yadr/git/gitignore
 [advice]
   statusHints = false
