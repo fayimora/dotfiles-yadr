@@ -91,6 +91,7 @@ Bundle "skwp/vim-colors-solarized"
 Bundle "bling/vim-airline.git"
 Bundle "vim-scripts/TagHighlight.git"
 Bundle "bogado/file-line.git"
+Bundle 'junegunn/seoul256.vim'
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
