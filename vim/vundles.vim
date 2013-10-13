@@ -34,7 +34,10 @@ Bundle "digitaltoad/vim-jade.git"
 Bundle "groenewege/vim-less.git"
 Bundle "jtratner/vim-flavored-markdown.git"
 Bundle "kchmck/vim-coffee-script"
-Bundle "kogakure/vim-sparkup.git"
+Bundle "nelstrom/vim-markdown-preview"
+Bundle "skwp/vim-html-escape"
+Bundle "slim-template/vim-slim.git"
+Bundle "timcharper/textile.vim.git"
 Bundle "tpope/vim-haml"
 
 " Git related...
