@@ -27,6 +27,7 @@ Bundle "vim-scripts/Specky.git"
 " Other languages
 Bundle "briancollins/vim-jst"
 Bundle "pangloss/vim-javascript"
+Bundle "rodjek/vim-puppet"
 
 " Html, Xml, Css, Markdown...
 Bundle "claco/jasmine.vim"
