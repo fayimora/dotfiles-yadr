@@ -11,3 +11,8 @@ endif
 if filereadable(expand("~/.vimrc.after"))
   source ~/.vimrc.after
 endif
+
+if filereadable(expand("~/.yadr/vim/after/my_overrides.vim"))
+  source ~/.yadr/vim/after/my_overrides.vim
+endif
+
