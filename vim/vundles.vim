@@ -28,6 +28,8 @@ Bundle "vim-scripts/Specky.git"
 Bundle "briancollins/vim-jst"
 Bundle "pangloss/vim-javascript"
 Bundle "rodjek/vim-puppet"
+" Bundle 'klen/python-mode'
+Bundle "gre/play2vim"
 
 " Html, Xml, Css, Markdown...
 Bundle "claco/jasmine.vim"
@@ -40,6 +42,7 @@ Bundle "skwp/vim-html-escape"
 Bundle "slim-template/vim-slim.git"
 Bundle "timcharper/textile.vim.git"
 Bundle "tpope/vim-haml"
+Bundle "mustache/vim-mode"
 
 " Git related...
 Bundle "gregsexton/gitv"
