@@ -43,6 +43,7 @@ Bundle "slim-template/vim-slim.git"
 Bundle "timcharper/textile.vim.git"
 Bundle "tpope/vim-haml"
 Bundle "mustache/vim-mode"
+Bundle "mattn/emmet-vim"
 
 " Git related...
 Bundle "gregsexton/gitv"
