@@ -20,12 +20,13 @@ Bundle "gmarik/vundle"
 
 " Ruby, Rails, Rake...
 Bundle "ecomba/vim-ruby-refactoring"
-Bundle "skwp/vim-spec-finder"
 Bundle "tpope/vim-rails.git"
 Bundle "tpope/vim-rake.git"
 Bundle "tpope/vim-rvm.git"
 Bundle "vim-ruby/vim-ruby.git"
 Bundle "Keithbsmiley/rspec.vim"
+Bundle "skwp/vim-iterm-rspec"
+Bundle "skwp/vim-spec-finder"
 
 Bundle "ck3g/vim-change-hash-syntax"
 
@@ -53,7 +54,6 @@ Bundle "mattn/emmet-vim"
 " Git related...
 Bundle "gregsexton/gitv"
 Bundle "mattn/gist-vim"
-Bundle "tjennings/git-grep-vim"
 Bundle "tpope/vim-fugitive"
 Bundle "tpope/vim-git"
 
@@ -62,9 +62,10 @@ Bundle "Raimondi/delimitMate"
 Bundle "Shougo/neocomplcache.git"
 Bundle "briandoll/change-inside-surroundings.vim.git"
 Bundle "godlygeek/tabular"
-Bundle "nelstrom/vim-visual-star-search"
+Bundle "skwp/vim-easymotion"
 Bundle "tomtom/tcomment_vim.git"
-Bundle "vim-scripts/IndexedSearch"
+Bundle "tpope/vim-bundler"
+Bundle "vim-scripts/camelcasemotion.git"
 Bundle "vim-scripts/matchit.zip.git"
 
 
@@ -72,15 +73,25 @@ Bundle "vim-scripts/matchit.zip.git"
 Bundle "garbas/vim-snipmate.git"
 Bundle "honza/vim-snippets"
 
+"File Navigation / Project Management
+Bundle "jistr/vim-nerdtree-tabs.git"
+Bundle "scrooloose/nerdtree.git"
+Bundle "kien/ctrlp.vim"
+Bundle "tpope/vim-vinegar"
+
+"Search
+Bundle "rking/ag.vim"
+Bundle "skwp/vim-git-grep-rails-partial"
+Bundle "tjennings/git-grep-vim"
+Bundle "vim-scripts/IndexedSearch"
+Bundle "nelstrom/vim-visual-star-search"
+
 " General vim improvements
+Bundle "chrisbra/NrrwRgn"
 Bundle "MarcWeber/vim-addon-mw-utils.git"
 Bundle "bogado/file-line.git"
-Bundle "jistr/vim-nerdtree-tabs.git"
-Bundle "kien/ctrlp.vim"
 Bundle "majutsushi/tagbar.git"
 Bundle "mattn/webapi-vim.git"
-Bundle "rking/ag.vim"
-Bundle "scrooloose/nerdtree.git"
 Bundle "scrooloose/syntastic.git"
 Bundle "sjbach/lusty.git"
 Bundle "sjl/gundo.vim"
@@ -97,6 +108,11 @@ Bundle "vim-scripts/sudo.vim"
 Bundle "xsunsmile/showmarks.git"
 Bundle "terryma/vim-multiple-cursors"
 
+" Session Management
+"vim-misc is required for vim-session
+Bundle "xolox/vim-misc"
+Bundle "xolox/vim-session"
+
 " Text objects
 Bundle "coderifous/textobj-word-column.vim"
 Bundle "nathanaelkane/vim-indent-guides"
@@ -108,6 +124,8 @@ Bundle "bling/vim-airline.git"
 Bundle "vim-scripts/TagHighlight.git"
 Bundle "bogado/file-line.git"
 Bundle "jby/tmux.vim.git"
+Bundle "morhetz/gruvbox"
+
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to

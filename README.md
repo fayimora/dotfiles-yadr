@@ -16,18 +16,18 @@
 
 **YADR is an opinionated dotfile repo that will make your heart sing**
 
-  * This is a curated collection of best of breed tools from across the web, from scouring all other top dotfile repos, blogs, and projects.
-  * All common shell commands should be two and three character mnemonic aliases - less keystrokes, RSI reduction
-  * Most common vim behaviors have been simplified to bare minimum key strokes.
+  * YADR takes a curated set of the best of the best in plugins, dotfile repos and ties them all together into a cohesive system.
+  * More than 90 vim plugins, all under one roof, working together.
+  * Each plugin is researched and configured to be at its best and to work with other plugins. Often times, better keymaps are provided. See `.yadr/vim/settings` and `.yadr/zsh/`for some examples.
+  * All common shell and vim commands should be two and three character mnemonic aliases - less keystrokes, RSI reduction
   * All things are vimized: irb, postres command line, etc.
-  * Much larger list of vim plugins than Janus, specifically geared to Ruby/Rails/Git development and keystroke reduction.
   * Optimized support for Solarized color scheme only, everything guaranteed to Look Good. Your eyes will thank you.
 
 ## Mailing List
 
 Got questions, concerns, want to hear announcements? Join the [Google Group](https://groups.google.com/forum/#!forum/yadr-users)
 
-Please use GitHub Issues for pull requests or bug reports only. 
+Please use GitHub Issues for pull requests or bug reports only.
 
 ## Screenshot
 
@@ -163,13 +163,8 @@ of plugins above to learn more.
 
  * vim-ruby-refactoring - try `,rem`, `,rel` to extract methods or let statements
  * `,vv` and `,cc` to switch between view and controller - these are maps to :Rcontroller and :Rview. Explore the :R<Tab> family of commands for more fun from rails.vim!
-
-#### Surround.vim customizations
-
- * the `#` key now surrounds with `#{}` for ruby string interpolation, so `ysaw#` (surround around word) `#{foo}`
- * `=` surrounds with `<%= erb tag %>`; `-` for `<% this %>`. So, `yss=` or `yss-` to wrap code
- * Surround any word with any character by using these combos: `,'`, `,"`, `,#` and so on.
- * Edit anything inside [brackets], "quotes", 'singles', etc by using Cmd+[the character in question]. So to edit inside [brackets] you use `Cmd-[`
+ * `,rs` and `,rl` to run rspec or a spec line in iTerm (check iTerm window for results)
+ * `,ss` and `,sl` for the same using `spring rspec` which makes your Rails specs faster by caching the Rails env (must have spring gem installed)
 
 #### Search/Code Navigation
 
@@ -185,10 +180,13 @@ of plugins above to learn more.
  * `,gd` - GitGrep def (greps for 'def [function name]') when cursor is over the function name
  * `,gcp` - GitGrep Current Partial to find references to the current view partial
  * `,gcf` - GitGrep Current File to find references to the current file
+ * `,ag` - Ag - silver searcher. Alternative to GitGrep that is as fast or faster.
+ * `,af` - AgFile - silver searcher for a filename
  * `//` - clear the search
  * `,T` - Tag list (list of methods in a class)
  * `Ctrl-s` - Open related spec in a split. Similar to :A and :AV from rails.vim but is also aware of the fast_spec dir and faster to type
  * `,,w` (alias `,<esc>`) or `,,b` (alias `,<shift-esc>`) - EasyMotion, a vimperator style tool that highlights jump-points on the screen and lets you type to get there.
+ * `,mc` - mark this word for MultiCursor (like sublime). Use `Ctrl-n` (next), `Ctrl-p` (prev), `Ctrl-x`(skip) to add more cursors, then do normal vim things like edit the word.
 
 #### File Navigation
  * `,t` - CtrlP fuzzy file selector
@@ -209,37 +207,29 @@ of plugins above to learn more.
  * `,jF` factories
  * `Cmd-Shift-P` - Clear CtrlP cache
  * `:Bopen [gem name]` to navigate to a gem (@tpope/vim-bundler)
+ * `Cmd-Shift-N` - NERDTree toggle
+ * `Ctrl-\` - Show current file in NERDTree
+ * `-` open the nerdtree in the current split, rather than popping out a project drawer (uses vim-vingar)
 
-#### RSI-reduction
+#### Better keystrokes for common editing commands
 
  * Cmd-Space to autocomplete. Tab for snipmate snippets.
  * `Cmd-k` and `Cmd-d` to type underscores and dashes (use Shift), since they are so common in code but so far away from home row
  * `Ctrl-l` to insert a => hashrocket (thanks @garybernhardt)
  * `,.` to go to last edit location (same as `'.`) because the apostrophe is hard on the pinky
  * `,ci` to change inside any set of quotes/brackets/etc
- * `,#` `,"` `,'` `,]` `,)` `,}` to surround a word in these common wrappers. the # does #{ruby interpolation}. works in visual mode (thanks @cj)
- * `Cmd-'`, `Cmd-"`, `Cmd-]`, `Cmd-)`, etc to change content inside those surrounding marks. You don't have to be inside them.
+ * `,#` `,"` `,'` `,]` `,)` `,}` to surround a word in these common wrappers. the # does #{ruby interpolation}. works in visual mode (thanks @cj). Normally these are done with something like `ysw#`
+ * `Cmd-'`, `Cmd-"`, `Cmd-]`, `Cmd-)`, etc to change content inside those surrounding marks. You don't have to be inside them. 
 
-#### Tab Navigation
+#### Tabs, Windows, Splits
 
- * Use `Cmd-1` thru `Cmd-9` to switch to a specific tab number (like iTerm) - and tabs have been set up to show numbers
-
-#### Window Navigation
-
- * `Ctrl-h,l,j,k` - to move left, right, down, up between windows
+ * Use `Cmd-1` thru `Cmd-9` to switch to a specific tab number (like iTerm and Chrome) - and tabs have been set up to show numbers
+ * `Ctrl-h,l,j,k` - to move left, right, down, up between splits
  * `Q` - Intelligent Window Killer. Close window `wincmd c` if there are multiple windows to same buffer, or kill the buffer `bwipeout` if this is the last window into it.
-
-#### Splits
-
  * `vv` - vertical split (`Ctrl-w,v`)
  * `ss` - horizontal split (`Ctrl-w,s`)
  * `,qo` - open quickfix window (this is where output from GitGrep goes)
  * `,qc` - close quickfix
-
-#### NERDTree Project Tree
-
- * `Cmd-Shift-N` - NERDTree toggle
- * `Ctrl-\` - Show current file tree
 
 #### Utility
 
@@ -268,7 +258,6 @@ of plugins above to learn more.
  * `,gt` - Go Tidy - tidy up your html code (works on a visual selection)
  * `Ctrl-p` after pasting - Use `p` to paste and `Ctrl-p` to cycle through previous pastes. Provided by YankRing.
  * `:Wrap` - wrap long lines (e.g. when editing markdown files).
- * `Cmd-[j, k]` - navigate display lines.
  * `Cmd-/` - toggle comments (usually gcc from tComment)
  * `gcp` (comment a paragraph)
 
