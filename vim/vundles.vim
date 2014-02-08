@@ -36,6 +36,7 @@ Bundle "pangloss/vim-javascript"
 Bundle "rodjek/vim-puppet"
 " Bundle 'klen/python-mode'
 Bundle "gre/play2vim"
+Bundle "othree/javascript-libraries-syntax.vim"
 
 " Html, Xml, Css, Markdown...
 Bundle "claco/jasmine.vim"
@@ -59,7 +60,7 @@ Bundle "tpope/vim-git"
 
 " General text editing improvements...
 Bundle "Raimondi/delimitMate"
-Bundle "Shougo/neocomplcache.git"
+Bundle "Shougo/neocomplete.git"
 Bundle "briandoll/change-inside-surroundings.vim.git"
 Bundle "godlygeek/tabular"
 Bundle "skwp/vim-easymotion"
@@ -78,6 +79,7 @@ Bundle "jistr/vim-nerdtree-tabs.git"
 Bundle "scrooloose/nerdtree.git"
 Bundle "kien/ctrlp.vim"
 Bundle "tpope/vim-vinegar"
+Bundle "justinmk/vim-sneak"
 
 "Search
 Bundle "rking/ag.vim"
@@ -107,11 +109,13 @@ Bundle "vim-scripts/lastpos.vim"
 Bundle "vim-scripts/sudo.vim"
 Bundle "xsunsmile/showmarks.git"
 Bundle "terryma/vim-multiple-cursors"
+Bundle "goldfeld/ctrlr.vim"
 
 " Session Management
 "vim-misc is required for vim-session
 Bundle "xolox/vim-misc"
 Bundle "xolox/vim-session"
+Bundle "Keithbsmiley/investigate.vim"
 
 " Text objects
 Bundle "coderifous/textobj-word-column.vim"
@@ -120,11 +124,12 @@ Bundle "nathanaelkane/vim-indent-guides"
 " Cosmetics, color scheme, Powerline...
 Bundle "chrisbra/color_highlight.git"
 Bundle "skwp/vim-colors-solarized"
-Bundle "bling/vim-airline.git"
+Bundle "itchyny/lightline.vim"
 Bundle "vim-scripts/TagHighlight.git"
 Bundle "bogado/file-line.git"
 Bundle "jby/tmux.vim.git"
 Bundle "morhetz/gruvbox"
+
 
 
 " Customization

@@ -18,6 +18,13 @@ function! YRRunAfterMaps()
   nnoremap Y   :<C-U>YRYankCount 'y$'<CR>
 endfunction
 
+" Make 0 go to the first character rather than the beginning
+" of the line. When we're programming, we're almost always
+" interested in working with text rather than empty space. If
+" you want the traditional beginning of line, use ^
+nnoremap 0 ^
+nnoremap ^ 0
+
 " ========================================
 " RSI Prevention - keyboard remaps
 " ========================================
@@ -136,12 +143,15 @@ nnoremap <silent> ,x :bn<CR>
 " Window/Tab/Split Manipulation
 " ==============================
 " Move between split windows by using the four directions H, L, I, N
-" (note that  I use I and N instead of J and K because  J already does
-" line joins and K is mapped to GitGrep the current word
 nnoremap <silent> <C-h> <C-w>h
 nnoremap <silent> <C-l> <C-w>l
 nnoremap <silent> <C-k> <C-w>k
 nnoremap <silent> <C-j> <C-w>j
+
+" Make gf (go to file) create the file, if not existent
+nnoremap gf :e<cfile><CR>
+nnoremap <C-w>f :sp +e<cfile><CR>
+nnoremap <C-w>gf :tabe<cfile><CR>
 
 " Zoom in and out of current window with ,gz
 map <silent> ,gz <C-w>o
