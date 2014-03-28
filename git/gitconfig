@@ -127,3 +127,6 @@
   path = .gitconfig.user
 [credential]
 	helper = osxkeychain
+[user]
+	name = Fayimora Femi-Balogun
+	email = fayi@fayimora.com
