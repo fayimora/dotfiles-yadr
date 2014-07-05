@@ -1,6 +1,7 @@
 colorscheme solarized
 set textwidth=100
 set colorcolumn=+0
+set diffopt=vertical
 
 " let ;; and ii in insert mode go to visual mode
 " map! ;; <Esc>
