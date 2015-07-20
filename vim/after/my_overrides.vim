@@ -66,3 +66,5 @@ let g:tagbar_type_scala = {
     \ ]
 \ }
 
+" syntastic sucks with sbt files so I have to use this
+au BufRead,BufNewFile *.sbt set filetype=sbt
